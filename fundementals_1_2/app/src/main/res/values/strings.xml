@@ -4,4 +4,6 @@
     <string name="btn_label_count">Count</string>
     <string name="count_initial_value">0</string>
     <string name="toast_message">Hello Toast!</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_back">Back</string>
 </resources>
