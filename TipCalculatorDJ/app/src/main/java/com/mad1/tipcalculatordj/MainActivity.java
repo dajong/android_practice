@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText billAmountEditText;
     private TextView percentTextView;
-    private Button  percentUpButton;
-    private Button percentDownButton;
     private TextView tipTextView;
     private TextView totalTextView;
 
@@ -33,9 +32,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        billAmountEditText = findViewById(R.id.bill_amount);
+        tipTextView = findViewById(R.id.tip);
+        percentTextView = findViewById(R.id.percent_tv);
+        totalTextView = findViewById(R.id.total);
     }
 
     public void calculateAndDisplay() {
+
 
         // get the bill amount
         billAmountString = billAmountEditText.getText().toString();
@@ -69,5 +74,13 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+    public void percentUp(View view) {
+        tipPercent = tipPercent + .01f;
+        calculateAndDisplay();
+    }
 
+    public void percentDown(View view) {
+        tipPercent = tipPercent - .01f;
+        calculateAndDisplay();
+    }
 }

@@ -10,48 +10,140 @@
         android:id="@+id/bill_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="28dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
         android:hint="@string/amount"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bill_amount_tv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/bill_amount_tv" />
 
     <TextView
         android:id="@+id/tip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
         android:hint="@string/tip"
         android:text="@string/initial_value"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tip_tv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="32dp"
+        android:hint="@string/total"
+        android:text="@string/initial_value"
+        app:layout_constraintBaseline_toBaselineOf="@+id/total_tv"
+        app:layout_constraintStart_toEndOf="@+id/total_tv" />
+
+    <TextView
+        android:id="@+id/percent_tv"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="32dp"
+        android:text="@string/initial_value"
+        app:layout_constraintBaseline_toBaselineOf="@+id/percent"
+        app:layout_constraintStart_toEndOf="@+id/percent" />
+
+    <TextView
+        android:id="@+id/nav"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/title"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bill_amount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/amount"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav" />
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="77dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/percent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bill_amount_tv" />
+
+    <TextView
+        android:id="@+id/tip_tv"
+        android:layout_width="77dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/tip"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/percent" />
 
     <TextView
-        android:id="@+id/total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="212dp"
-        android:hint="@string/total"
-        android:text="@string/initial_value"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tip"
-        app:layout_constraintVertical_bias="0.258" />
+        android:id="@+id/total_tv"
+        android:layout_width="77dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/total"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip_tv" />
 
-    <TextView
-        android:id="@+id/percent"
+    <Button
+        android:id="@+id/btn_apply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="192dp"
-        android:hint="@string/percent"
-        android:text="@string/initial_value"
+        android:layout_marginTop="96dp"
+        android:onClick="percentUp"
+        android:text="@string/btn_apply"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bill_amount" />
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total" />
+
+    <Button
+        android:id="@+id/btn_increase"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:onClick="percentUp"
+        android:text="@string/btn_add"
+        app:layout_constraintBaseline_toBaselineOf="@+id/percent_tv"
+        app:layout_constraintStart_toEndOf="@+id/percent_tv" />
+
+    <Button
+        android:id="@+id/btn_decrease"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:onClick="percentDown"
+        android:text="@string/btn_deduct"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_increase"
+        app:layout_constraintStart_toEndOf="@+id/btn_increase" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
