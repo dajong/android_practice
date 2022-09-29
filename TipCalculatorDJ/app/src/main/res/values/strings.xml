@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Tip Calculator DJ</string>
     <string name="amount">Bill Amount</string>
+    <string name="amount_prompt">Enter bill amount here..</string>
     <string name="percent">Percent</string>
     <string name="tip">Tip</string>
     <string name="total">Total</string>
     <string name="initial_value">0</string>
+    <string name="initial_tip_percent">12</string>
     <string name="title">Tip Calculator</string>
     <string name="btn_apply">Apply</string>
     <string name="btn_add">+</string>
