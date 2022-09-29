@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_main
+id btn_second
+id editText_main
+id editText_second
+id text_header
+id text_header_reply
+id text_message
+id text_message_reply
+layout activity_main
+layout activity_second
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_second
+string btn_send
+string editText_second
+string msg_received
+string send_msg_hint
+string text_header_reply
+string text_message_reply
+style Theme.TwoActivities
+xml backup_rules
+xml data_extraction_rules
