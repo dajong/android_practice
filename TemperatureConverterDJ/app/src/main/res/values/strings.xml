@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Temperature Converter DJ</string>
+    <string name="celsius">to Celsius</string>
+    <string name="fahrenheit">to Farenheit</string>
+    <string name="prompt">Enter Value</string>
+    <string name="btn_convert">Convert</string>
+    <string name="initial">0.0</string>
+</resources>
