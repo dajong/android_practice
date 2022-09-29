@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import java.text.NumberFormat;
@@ -18,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView percentTextView;
     private TextView tipTextView;
     private TextView totalTextView;
-
+    private SeekBar seekBar;
 
     private String billAmountString = "";
-    private float tipPercent = .15f;
+    private float tipPercent;
 
     public MainActivity() {
     }
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        NumberFormat percent = NumberFormat.getPercentInstance();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -37,6 +39,38 @@ public class MainActivity extends AppCompatActivity {
         tipTextView = findViewById(R.id.tip);
         percentTextView = findViewById(R.id.percent_tv);
         totalTextView = findViewById(R.id.total);
+        seekBar = findViewById(R.id.seekBar);
+        tipPercent = Float.parseFloat(percentTextView.getText().toString());
+        percentTextView.setText(percent.format(tipPercent / 100));
+
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                tipPercent = (float) i;
+                percentTextView.setText(percent.format(tipPercent / 100));
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
+        billAmountEditText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView textView, int actionId, KeyEvent keyEvent) {
+                if (actionId == EditorInfo.IME_ACTION_DONE ||
+                        actionId == EditorInfo.IME_ACTION_UNSPECIFIED) {
+                    calculateAndDisplay();
+                }
+                return false;
+            }
+        });
     }
 
     public void calculateAndDisplay() {
@@ -53,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // calculate tip and total
-        float tipAmount = billAmount * tipPercent;
+        float tipAmount = billAmount * tipPercent / 100;
         float totalAmount = billAmount + tipAmount;
 
         // display the other results with formatting
@@ -62,25 +96,22 @@ public class MainActivity extends AppCompatActivity {
         totalTextView.setText(currency.format(totalAmount));
 
         NumberFormat percent = NumberFormat.getPercentInstance();
-        percentTextView.setText(percent.format(tipPercent));
-    }
-
-
-    public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-        if (actionId == EditorInfo.IME_ACTION_DONE ||
-                actionId == EditorInfo.IME_ACTION_UNSPECIFIED) {
-            calculateAndDisplay();
-        }
-        return false;
+        percentTextView.setText(percent.format(tipPercent / 100));
     }
 
     public void percentUp(View view) {
-        tipPercent = tipPercent + .01f;
-        calculateAndDisplay();
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        seekBar.setProgress(seekBar.getProgress() + 1);
+        percentTextView.setText(percent.format(tipPercent / 100));
     }
 
     public void percentDown(View view) {
-        tipPercent = tipPercent - .01f;
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        seekBar.setProgress(seekBar.getProgress() - 1);
+        percentTextView.setText(percent.format(tipPercent / 100));
+    }
+
+    public void calculateAndDisplay(View view) {
         calculateAndDisplay();
     }
 }
