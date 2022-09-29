@@ -4,48 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:circularflow_defaultAngle="15"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/bill_amount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="28dp"
+        android:layout_width="232dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="@string/amount"
-        android:inputType="textPersonName"
+        android:hint="@string/amount_prompt"
+        android:inputType="numberDecimal"
         app:layout_constraintBaseline_toBaselineOf="@+id/bill_amount_tv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/bill_amount_tv" />
 
     <TextView
         android:id="@+id/tip"
-        android:layout_width="58dp"
+        android:layout_width="220dp"
         android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
         android:hint="@string/tip"
         android:text="@string/initial_value"
         app:layout_constraintBaseline_toBaselineOf="@+id/tip_tv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.456"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/total"
-        android:layout_width="58dp"
+        android:layout_width="220dp"
         android:layout_height="28dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
         android:hint="@string/total"
         android:text="@string/initial_value"
         app:layout_constraintBaseline_toBaselineOf="@+id/total_tv"
-        app:layout_constraintStart_toEndOf="@+id/total_tv" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/percent_tv"
         android:layout_width="58dp"
         android:layout_height="28dp"
-        android:layout_marginStart="32dp"
-        android:text="@string/initial_value"
+        android:layout_marginStart="80dp"
+        android:text="@string/initial_tip_percent"
         app:layout_constraintBaseline_toBaselineOf="@+id/percent"
         app:layout_constraintStart_toEndOf="@+id/percent" />
 
@@ -70,8 +70,8 @@
         android:id="@+id/bill_amount_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:text="@string/amount"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -82,8 +82,8 @@
         android:id="@+id/percent"
         android:layout_width="77dp"
         android:layout_height="28dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:text="@string/percent"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -94,20 +94,20 @@
         android:id="@+id/tip_tv"
         android:layout_width="77dp"
         android:layout_height="28dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:text="@string/tip"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/percent" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <TextView
         android:id="@+id/total_tv"
         android:layout_width="77dp"
         android:layout_height="28dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:text="@string/total"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -119,7 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
-        android:onClick="percentUp"
+        android:onClick="calculateAndDisplay"
         android:text="@string/btn_apply"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -130,7 +130,7 @@
         android:id="@+id/btn_increase"
         android:layout_width="49dp"
         android:layout_height="47dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="48dp"
         android:onClick="percentUp"
         android:text="@string/btn_add"
         app:layout_constraintBaseline_toBaselineOf="@+id/percent_tv"
@@ -141,9 +141,25 @@
         android:layout_width="49dp"
         android:layout_height="47dp"
         android:layout_marginStart="28dp"
+        android:layout_marginEnd="16dp"
         android:onClick="percentDown"
         android:text="@string/btn_deduct"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_increase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btn_increase" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="262dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:max="30"
+        android:min="12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/percent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
