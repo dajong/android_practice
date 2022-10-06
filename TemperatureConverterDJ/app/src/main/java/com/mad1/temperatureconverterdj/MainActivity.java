@@ -42,8 +42,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void convert()
-    {
+
+    public void onClick(View view){
+        convert();
+    }
+    public void convert() {
+
         if(!input.getText().toString().matches("")){
             float inputValue = Float.parseFloat(input.getText().toString());
             if(toCelsius.isChecked()){
@@ -63,10 +67,5 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(context, error, duration);
             toast.show();
         }
-
-    }
-
-    public void convert(View view) {
-        convert();
     }
 }
