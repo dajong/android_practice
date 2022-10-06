@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="44dp"
         android:text="@string/amount"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/percent_tv" />
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="44dp"
         android:text="@string/total"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/amount_tv" />
@@ -65,6 +65,7 @@
         android:text="@string/initial_percent"
         app:layout_constraintBaseline_toBaselineOf="@+id/percent_tv"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toEndOf="@+id/percent_tv" />
 
     <TextView
@@ -74,6 +75,7 @@
         android:text="@string/initial_amount"
         app:layout_constraintBaseline_toBaselineOf="@+id/amount_tv"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toEndOf="@+id/amount_tv" />
 
     <TextView
@@ -83,6 +85,7 @@
         android:text="@string/initial_amount"
         app:layout_constraintBaseline_toBaselineOf="@+id/total_tv"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toEndOf="@+id/total_tv" />
 
 

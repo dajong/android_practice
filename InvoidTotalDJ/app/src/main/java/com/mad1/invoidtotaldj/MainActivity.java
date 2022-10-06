@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
+        Log.d("resume", "RESUMMEEEEINGGGGGGG!!!!!!!!!!!!!!!");
         String subtotalString = savedValues.getString("subtotal", "");
         subtotal.setText(subtotalString);
         calculateAndDisplay();
@@ -67,32 +68,38 @@ public class MainActivity extends AppCompatActivity {
        SharedPreferences.Editor editor = savedValues.edit();
        editor.putString("subtotal", subtotal.getText().toString());
        editor.commit();
+       Log.d("pause", "PAAAUUUSSSSINGGGGGGGGGG!!!!!!!!!!!!!");
        super.onPause();
     }
 
     public void calculateAndDisplay(){
-        if(subtotal.getText().toString() != ""){
-            double curSubtotal = Integer.parseInt(subtotal.getText().toString());
-            double discountAmount = curSubtotal;
-            if(curSubtotal < 100){
-                curDiscount = 1;
-                percent.setText(percentFormatter.format(0));
-            }
-            else if(curSubtotal >= 100 && curSubtotal <= 200){
-                curDiscount = 0.9;
-                percent.setText(percentFormatter.format(0.1));
-            }
-            else if(curSubtotal >= 200){
-                curDiscount = 0.8;
-                percent.setText(percentFormatter.format(0.2));
-            }
-
-            curSubtotal *= curDiscount;
-            curSubtotal = Math.round(curSubtotal);
-            discountAmount -= curSubtotal;
-            amount.setText(currency.format(discountAmount));
-            total.setText(currency.format(curSubtotal));
+        double curSubtotal;
+        if (subtotal.getText().toString().equals("")) {
+            curSubtotal = 0;
         }
+        else {
+            curSubtotal = Integer.parseInt(subtotal.getText().toString());
+        }
+        double discountAmount = curSubtotal;
+        if(curSubtotal < 100){
+            curDiscount = 1;
+            percent.setText(percentFormatter.format(0));
+        }
+        else if(curSubtotal >= 100 && curSubtotal < 200){
+            curDiscount = 0.9;
+            percent.setText(percentFormatter.format(0.1));
+        }
+        else if(curSubtotal >= 200){
+            curDiscount = 0.8;
+            percent.setText(percentFormatter.format(0.2));
+        }
+
+        curSubtotal *= curDiscount;
+        curSubtotal = Math.round(curSubtotal);
+        discountAmount -= curSubtotal;
+        amount.setText(currency.format(discountAmount));
+        total.setText(currency.format(curSubtotal));
+
     }
 }
 
