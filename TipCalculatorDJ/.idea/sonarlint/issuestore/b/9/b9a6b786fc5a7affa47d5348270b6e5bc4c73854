@@ -1,19 +1,19 @@
 
->
-java:S1604@"(Make this anonymous inner class a lambda(ŠîïÜ
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—¦‹ã
-u
-java:S1450"_Remove the "billAmountString" field and declare it as a local variable in the relevant methods.(—ğÑä
-œ
-java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ®çâùÿÿÿÿ
-—
-java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–
-C
-java:S19051"(Remove this unnecessary cast to "float".(ÛÅ²Òüÿÿÿÿ
-A
-java:S1172f"+Remove this unused method parameter "view".(”æ˜¯
-F
-java:S1172l"+Remove this unused method parameter "view".(øÎÙ¹ûÿÿÿÿ
-F
-java:S1172r"+Remove this unused method parameter "view".(¼·è¢şÿÿÿÿ
+E
+java:S1604@"(Make this anonymous inner class a lambda(ŠîïÜ8ä¼ÿÔ¸0
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—¦‹ã8½ÿÔ¸0
+|
+java:S1450"_Remove the "billAmountString" field and declare it as a local variable in the relevant methods.(—ğÑä8‚½ÿÔ¸0
+£
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ®çâùÿÿÿÿ8Š½ÿÔ¸0
+
+java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–8Š½ÿÔ¸0
+J
+java:S19051"(Remove this unnecessary cast to "float".(ÛÅ²Òüÿÿÿÿ8Œ½ÿÔ¸0
+H
+java:S1172f"+Remove this unused method parameter "view".(”æ˜¯8‘½ÿÔ¸0
+M
+java:S1172l"+Remove this unused method parameter "view".(øÎÙ¹ûÿÿÿÿ8’½ÿÔ¸0
+M
+java:S1172r"+Remove this unused method parameter "view".(¼·è¢şÿÿÿÿ8“½ÿÔ¸0
