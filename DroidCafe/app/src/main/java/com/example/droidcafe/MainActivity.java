@@ -1,5 +1,6 @@
 package com.example.droidcafe;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -17,11 +18,18 @@ import com.example.droidcafe.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    // Tag for the intent extra.
+    public static final String EXTRA_MESSAGE =
+            "com.example.android.droidcafe.extra.MESSAGE";
+
+    // The order message, displayed in the Toast and sent to the new Activity.
+    private String mOrderMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +47,9 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
+                startActivity(intent);
             }
         });
     }
@@ -72,5 +81,39 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void displayToast(String message) {
+        Toast.makeText(getApplicationContext(), message,
+                Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * Shows a message that the donut image was clicked.
+     */
+    public void showDonutOrder(View view) {
+        mOrderMessage = getString(R.string.donut_order_message);
+        displayToast(getString(R.string.donut_order_message));
+    }
+
+    /**
+     * Shows a message that the ice cream sandwich image was clicked.
+     */
+    public void showIceCreamOrder(View view) {
+        mOrderMessage = getString(R.string.ice_cream_order_message);
+        displayToast(getString(R.string.ice_cream_order_message));
+    }
+
+    /**
+     * Shows a message that the froyo image was clicked.
+     */
+    public void showFroyoOrder(View view) {
+        mOrderMessage = getString(R.string.froyo_order_message);
+        displayToast(getString(R.string.froyo_order_message));
+    }
+
+    public void onClick(View view) {
+        Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+        startActivity(intent);
     }
 }
