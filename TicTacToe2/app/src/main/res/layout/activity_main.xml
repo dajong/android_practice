@@ -151,6 +151,8 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:titleTextColor="@color/teal_200"
+        app:subtitleTextColor="@color/teal_200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

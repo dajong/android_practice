@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
+    public static final int TEXT_REQUEST = 1;
     boolean gameActive = true;
     private TextView status;
     private Button curButton;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_7;
     private Button btn_8;
     private SharedPreferences savedValues;
+    private String name_x;
+    private String name_o;
 
     // Player representation
     // 0 - X
@@ -62,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
         btn_8 = findViewById(R.id.btn_8);
 
         savedValues = getSharedPreferences("SavedValues", MODE_PRIVATE);
+
+        name_x = savedValues.getString("name_x", "X");
+        name_o = savedValues.getString("name_o", "O");
     }
 
     @Override
@@ -82,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_settings:
                 Intent intent = new Intent(MainActivity.this,
                         Settings.class);
-                startActivity(intent);
+                startActivityForResult(intent, TEXT_REQUEST);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -116,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Player
         activePlayer = savedValues.getInt("activePlayer", 0);
+        name_x = (savedValues.getString("name_x", "X"));
+        name_o = (savedValues.getString("name_o", "O"));
     }
 
     @Override
@@ -131,6 +139,8 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("btn_6", btn_6.getText().toString());
         editor.putString("btn_7", btn_7.getText().toString());
         editor.putString("btn_8", btn_8.getText().toString());
+        editor.putString("name_x", name_x);
+        editor.putString("name_o", name_o);
         editor.putInt("activePlayer", activePlayer);
         editor.putBoolean("gameActive", gameActive);
 
@@ -142,8 +152,43 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("gameState", sb.toString());
         editor.putInt("count", counter);
 
+        editor.putString("name_x", name_x);
+        editor.putString("name_o", name_o);
+
         editor.commit();
         super.onPause();
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == TEXT_REQUEST){
+            if(resultCode == RESULT_OK){
+                String new_name_x = data.getStringExtra(Settings.NEW_NAME_X);
+                String new_name_o = data.getStringExtra(Settings.NEW_NAME_O);
+                name_x = new_name_x;
+                name_o = new_name_o;
+
+                SharedPreferences.Editor editor = savedValues.edit();
+
+
+                editor.putString("name_x", name_x);
+                editor.putString("name_o", name_o);
+
+                editor.commit();
+
+                if(counter < 9){
+                    if(activePlayer == 0 && !gameActive) status.setText(name_x + " has won");
+                    else if(activePlayer == 1 && !gameActive) status.setText(name_x + " has won");
+                    else if(activePlayer == 0 && gameActive) status.setText(name_x + " 's Turn - Tap to play");
+                    else if(activePlayer == 1 && gameActive) status.setText(name_o + " 's Turn - Tap to play");
+
+                }
+            }
+
+
+        }
     }
 
     // this function will be called every time a
@@ -180,14 +225,14 @@ public class MainActivity extends AppCompatActivity {
                     curButton.setText("X");
                     activePlayer = 1;
                     // change the status
-                    status.setText("O's Turn - Tap to play");
+                    status.setText(name_o + " 's Turn - Tap to play");
                 } else {
                     // set the image of o
                     curButton.setText("O");
                     activePlayer = 0;
 
                     // change the status
-                    status.setText("X's Turn - Tap to play");
+                    status.setText(name_x + " 's Turn - Tap to play");
                 }
             }
             int flag = 0;
@@ -204,9 +249,9 @@ public class MainActivity extends AppCompatActivity {
                     // game reset function be called
                     gameActive = false;
                     if (gameState[winPosition[0]] == 0) {
-                        winnerStr = "X has won";
+                        winnerStr = name_x + " has won";
                     } else {
-                        winnerStr = "O has won";
+                        winnerStr = name_o + " has won";
                     }
                     // Update the status bar for winner announcement
                     status.setText(winnerStr);
@@ -228,6 +273,7 @@ public class MainActivity extends AppCompatActivity {
     public void gameReset(){
         gameActive = true;
         activePlayer = 0;
+        counter = 0;
         for (int i = 0; i < gameState.length; i++) {
             gameState[i] = 2;
         }
@@ -242,6 +288,7 @@ public class MainActivity extends AppCompatActivity {
         btn_7.setText("");
         btn_8.setText("");
 
-        status.setText("X's Turn - Tap to play");
+        status.setText(name_x + " 's Turn - Tap to play");
     }
+
 }

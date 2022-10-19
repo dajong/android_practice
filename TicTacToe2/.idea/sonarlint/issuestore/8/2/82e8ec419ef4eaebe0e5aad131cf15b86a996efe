@@ -1,24 +1,0 @@
-
-n
-java:S1104."SMake counter a static final constant or non-public and provide accessors if needed.(£èÆıÿÿÿÿ
-H
-java:S1444."-Make this "public static counter" field final(£èÆıÿÿÿÿ
-j	java:S116"PRename this field "btn_0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¬í¿ÿÿÿÿÿ
-j	java:S116"PRename this field "btn_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÁ¡Ëøÿÿÿÿ
-e	java:S116"PRename this field "btn_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¹Œı
-j	java:S116"PRename this field "btn_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éâ—ûùÿÿÿÿ
-j	java:S116"PRename this field "btn_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íˆû²ıÿÿÿÿ
-j	java:S116"PRename this field "btn_5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š›£ûÿÿÿÿ
-j	java:S116"PRename this field "btn_6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş”âıÿÿÿÿ
-e	java:S116"PRename this field "btn_7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÎöĞ
-j	java:S116"PRename this field "btn_8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ï¦Áÿÿÿÿÿ
-s
-java:S1450"XRemove the "curButton" field and declare it as a local variable in the relevant methods.(»Å¹Ñûÿÿÿÿ
-Q
-java:S2696s"6Make the enclosing method "static" or remove this set.(å¾²îıÿÿÿÿ
-i
-java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Å§¦–
-R
-java:S2696¥"6Make the enclosing method "static" or remove this set.(§ãì”ıÿÿÿÿ
-G
-java:S1172à"+Remove this unused method parameter "view".(Ä©¾æıÿÿÿÿ
