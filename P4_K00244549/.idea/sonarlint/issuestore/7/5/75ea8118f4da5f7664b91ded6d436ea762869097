@@ -1,0 +1,34 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "quick" 4 times.(ÛÚöÓ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªª§¥ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÅÀˆûÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğò‚ú
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÖ‡Ş
+f	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–š¤–
+f	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ëı†
+k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îœĞÙşÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+X
+java:S1854"6Remove this useless assignment to local variable "l3".(Í‹æªùÿÿÿÿ8±­¿‹½0
+I
+java:S1481"'Remove this unused "l3" local variable.(Í‹æªùÿÿÿÿ8²­¿‹½0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«ã×Äıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ¼“„
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Šñ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ë«°
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢à›
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ĞîÍÀ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(½Œ•
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(áÀ¸øÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(îê‹ùÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(á¨×‰
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ƒöƒ 
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(‡«¸ºÿÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(“¿éÎ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(­óïÏøÿÿÿÿ
+Q
+java:S1612@";Replace this lambda with method reference 'String::length'.(¯½ÌÁ
+m
+java:S6204D"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÇÅ€İøÿÿÿÿ
