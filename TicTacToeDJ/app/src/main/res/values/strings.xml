@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="new_game_text">New Game</string>
+
+    <string name="btn_save_name">Save New Names</string>
+    <string name="lbl_name_1">New name for player X</string>
+    <string name="lbl_name_2">New name for player O</string>
+    <string name="hint_name">Enter name here</string>
+    <string name="settings_title">Change Player Name</string>
+    <string name="title_change_name">Change Name</string>
+
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
+    <string name="toggle_mode">Day/Night Mode</string>
+    <string name="btn_reset">Reset</string>
+
+    <string name="initial_value">0</string>
+</resources>
