@@ -1,0 +1,131 @@
+
+b
+java:S1192T"GDefine a constant instead of duplicating this literal "name_o" 5 times.(š÷Ù¢øÿÿÿÿ
+]
+java:S1192¯"FDefine a constant instead of duplicating this literal "btn_6" 3 times.(”óžµ
+]
+java:S1192®"FDefine a constant instead of duplicating this literal "btn_5" 3 times.(Ïâøå
+b
+java:S1192­"FDefine a constant instead of duplicating this literal "btn_4" 3 times.(Ÿôò³ûÿÿÿÿ
+]
+java:S1192¬"FDefine a constant instead of duplicating this literal "btn_3" 3 times.(ì×‡
+]
+java:S1192±"FDefine a constant instead of duplicating this literal "btn_8" 3 times.(«¶áÅ
+]
+java:S1192°"FDefine a constant instead of duplicating this literal "btn_7" 3 times.(ˆ›ÙÀ
+]
+java:S1192«"FDefine a constant instead of duplicating this literal "btn_2" 3 times.(²þû×
+b
+java:S1192t"LDefine a constant instead of duplicating this literal "Multiplayer" 3 times.(ÕÄ·â
+b
+java:S1192ª"FDefine a constant instead of duplicating this literal "btn_1" 3 times.(±ÖÙ›þÿÿÿÿ
+b
+java:S1192©"FDefine a constant instead of duplicating this literal "btn_0" 3 times.(ý‘ÏÄûÿÿÿÿ
+s
+java:S1192†"WDefine a constant instead of duplicating this literal " 's Turn - Tap to play" 6 times.(È £Ðùÿÿÿÿ
+_
+java:S1192Å"HDefine a constant instead of duplicating this literal "score_x" 3 times.(Æœ™À
+b
+java:S1192V"GDefine a constant instead of duplicating this literal "Score " 4 times.(öæ©ÿÿÿÿÿ
+e
+java:S1192‚"IDefine a constant instead of duplicating this literal " has won" 6 times.(óŠÈ„øÿÿÿÿ
+_
+java:S1192Æ"HDefine a constant instead of duplicating this literal "score_o" 3 times.(æ…ÖŽ
+d
+java:S1192v"NDefine a constant instead of duplicating this literal "Single Player" 3 times.(Åî–Å
+b
+java:S1192S"GDefine a constant instead of duplicating this literal "name_x" 5 times.( ¯ ¤ûÿÿÿÿ
+c
+java:S1192´"GDefine a constant instead of duplicating this literal "status" 6 times.(â³°Ôùÿÿÿÿ
+K
+java:S1066ó"/Merge this if statement with the enclosing one.(±„‘‰ýÿÿÿÿ
+f	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛäÃ
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‰¯Ò
+g	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤†Ê
+l	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎäÔÕüÿÿÿÿ
+g	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÙåÃ
+r
+java:S1488–"[Immediately return this expression instead of assigning it to the temporary variable "ans".(Éùû“
+n
+java:S1104:"SMake counter a static final constant or non-public and provide accessors if needed.(£èÆýÿÿÿÿ
+H
+java:S1444:"-Make this "public static counter" field final(£èÆýÿÿÿÿ
+A
+java:S5411¼"*Use the primitive boolean expression here.(¥þ·€
+F
+java:S5411Á"*Use the primitive boolean expression here.(Øàô÷ýÿÿÿÿ
+S
+java:S2589…"7Remove this expression which always evaluates to "true"(¨Íäùÿÿÿÿ
+k	java:S116"VRename this field "single_mode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÆÄÅ
+j	java:S116"PRename this field "btn_0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¬í¿ÿÿÿÿÿ
+j	java:S116"PRename this field "btn_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÁ¡Ëøÿÿÿÿ
+e	java:S116"PRename this field "btn_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¹Œý
+j	java:S116"PRename this field "btn_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éâ—ûùÿÿÿÿ
+j	java:S116"PRename this field "btn_4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íˆû²ýÿÿÿÿ
+j	java:S116"PRename this field "btn_5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š›£ûÿÿÿÿ
+j	java:S116"PRename this field "btn_6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žÞ”âýÿÿÿÿ
+e	java:S116"PRename this field "btn_7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÎöÐ
+j	java:S116"PRename this field "btn_8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ï¦Áÿÿÿÿÿ
+f	java:S116 "QRename this field "name_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÕšù
+k	java:S116!"QRename this field "name_o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨™¶ïùÿÿÿÿ
+q	java:S116""WRename this field "name_x_label" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»âƒðüÿÿÿÿ
+q	java:S116#"WRename this field "name_o_label" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÕ¶ýÿÿÿÿ
+p	java:S116$"VRename this field "namex_score" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úù§úÿÿÿÿ
+p	java:S116%"VRename this field "nameo_score" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âˆßüÿÿÿÿ
+n	java:S116&"TRename this field "game_mode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ìÕüþÿÿÿÿ
+g	java:S116'"RRename this field "score_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¹¯Ð
+l	java:S116("RRename this field "score_o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÙð‘ýÿÿÿÿ
+s
+java:S1450"XRemove the "curButton" field and declare it as a local variable in the relevant methods.(»Å¹Ñûÿÿÿÿ
+S
+java:S1117q"=Rename "game_mode" which hides the field declared at line 38.(ÛäÃ
+U
+java:S1874œ">Remove this use of "startActivityForResult"; it is deprecated.(ÍÝ­¯
+O
+java:S1854¼"8Remove this useless assignment to local variable "mode".(˜˜Îï
+R
+java:S2696º"6Make the enclosing method "static" or remove this set.(å¾²îýÿÿÿÿ
+>
+java:S1125¼"'Remove the unnecessary boolean literal.(˜˜Îï
+@
+java:S1481¼")Remove this unused "mode" local variable.(˜˜Îï
+f
+java:S1874ï"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïýÿÿÿÿ
+n
+java:S3776ï"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÉÎÍïýÿÿÿÿ
+n
+java:S3776”"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ÛÞ×æúÿÿÿÿ
+“
+java:S1130”"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ÛÞ×æúÿÿÿÿ
+R
+java:S2696¡"6Make the enclosing method "static" or remove this set.(§ãì”ýÿÿÿÿ
+C
+java:S1125Ý"'Remove the unnecessary boolean literal.(˜°ÀÞøÿÿÿÿ
+W	java:S125å"<This block of commented-out lines of code should be removed.(›àÍÙúÿÿÿÿ
+R
+java:S2696ü"6Make the enclosing method "static" or remove this set.(§ãì”ýÿÿÿÿ
+G
+java:S1172°"+Remove this unused method parameter "view".(Ä©¾æýÿÿÿÿ
+R
+java:S2696·"6Make the enclosing method "static" or remove this set.(×ÉÂðüÿÿÿÿ
+d	java:S100Ê"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÊŸ£
+B
+java:S1172Ê"+Remove this unused method parameter "view".(¼ÊŸ£
+=	java:S131Ó""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ
+B
+java:S1197î",Move the array designators [][] to the type.(À«¸T
+=
+java:S1905ñ"&Remove this unnecessary cast to "int".(¯¨Š
+i
+java:S3776ù"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÚÐîÎ
+C
+java:S1197ù",Move the array designators [][] to the type.(ÚÐîÎ
+n
+java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(’¹ìàûÿÿÿÿ
+H
+java:S1197ª",Move the array designators [][] to the type.(’¹ìàûÿÿÿÿ
+>
+java:S1125¼"'Remove the unnecessary boolean literal.(¥þ·€
+C
+java:S1197õ",Move the array designators [][] to the type.(¢úÅì
+7	java:S131œ""Add a default case to this switch.(ìúÇV

@@ -9,54 +9,59 @@
 
     <TextView
         android:id="@+id/namex_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
         android:text="@string/initial_value"
+        android:textSize="@dimen/scoreboard_text_size"
         app:layout_constraintBaseline_toBaselineOf="@+id/namex_label"
-        app:layout_constraintEnd_toStartOf="@+id/nameo_label"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/namex_label" />
 
     <TextView
         android:id="@+id/nameo_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
         android:text="@string/initial_value"
+        android:textSize="@dimen/scoreboard_text_size"
         app:layout_constraintBaseline_toBaselineOf="@+id/nameo_label"
         app:layout_constraintStart_toEndOf="@+id/nameo_label" />
 
     <Button
         android:id="@+id/btn_reset"
-        android:layout_width="73dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/btn_reset"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="24dp"
         android:onClick="reset_score"
-        app:layout_constraintBaseline_toBaselineOf="@+id/nameo_score"
+        android:text="@string/btn_reset"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nameo_score" />
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toEndOf="@+id/namex_score"
+        app:layout_constraintTop_toBottomOf="@+id/status_text"
+        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/nameo_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/namex_score"
-        app:layout_constraintTop_toBottomOf="@+id/status_text" />
+        android:textSize="@dimen/scoreboard_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namex_label" />
 
     <TextView
         android:id="@+id/namex_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/btn_new_game"
+        android:textSize="@dimen/scoreboard_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/status_text" />
 
@@ -65,9 +70,11 @@
         android:layout_width="@dimen/square_length"
         android:layout_height="@dimen/square_length"
         android:layout_marginStart="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="1"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_0"
         app:layout_constraintStart_toEndOf="@+id/btn_0" />
 
@@ -77,9 +84,11 @@
         android:layout_height="@dimen/square_length"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="4"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintStart_toEndOf="@+id/btn_3"
         app:layout_constraintTop_toBottomOf="@+id/btn_1" />
 
@@ -90,9 +99,11 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="5"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_4"
         app:layout_constraintTop_toBottomOf="@+id/btn_2" />
@@ -104,9 +115,11 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="8"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_7"
         app:layout_constraintTop_toBottomOf="@+id/btn_5" />
@@ -117,9 +130,11 @@
         android:layout_height="@dimen/square_length"
         android:layout_marginStart="24dp"
         android:layout_marginTop="70dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="0"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -129,8 +144,10 @@
         android:layout_height="@dimen/square_length"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="6"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_3" />
 
@@ -140,25 +157,13 @@
         android:layout_height="@dimen/square_length"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="7"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintStart_toEndOf="@+id/btn_6"
         app:layout_constraintTop_toBottomOf="@+id/btn_4" />
-
-    <Button
-        android:id="@+id/btn_new_game"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="16dp"
-        android:onClick="gameReset"
-        android:text="@string/new_game_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameo_label" />
 
     <Button
         android:id="@+id/btn_3"
@@ -166,9 +171,11 @@
         android:layout_height="@dimen/square_length"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="3"
         android:text=""
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_0" />
 
@@ -179,8 +186,10 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="24dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:onClick="playerTap"
         android:tag="2"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_1"
         app:layout_constraintTop_toTopOf="parent" />
@@ -196,16 +205,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_7" />
-
-    <!--    <androidx.appcompat.widget.Toolbar-->
-    <!--        android:id="@+id/toolbar"-->
-    <!--        android:layout_width="0dp"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:minHeight="?attr/actionBarSize"-->
-    <!--        app:titleTextColor="@color/teal_200"-->
-    <!--        app:subtitleTextColor="@color/teal_200"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
