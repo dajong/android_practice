@@ -1,0 +1,8 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÇîé
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö“Øœýÿÿÿÿ
+h	java:S116"SRename this field "player_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÀËƒ
+h	java:S116"SRename this field "player_o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä™îœ
+F
+java:S1172"+Remove this unused method parameter "view".(šó‘€ÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(õÐ¨Õ
