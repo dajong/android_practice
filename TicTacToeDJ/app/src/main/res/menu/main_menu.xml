@@ -11,9 +11,10 @@
         android:id="@+id/menu_settings"
         android:title="@string/settings_title"
         app:showAsAction="never" />
+
     <item
         android:id="@+id/menu_single_mode"
-        android:title="@string/single_double_mode"
+        android:title="@string/initial_game_mode"
         app:showAsAction="never" />
 
     <item

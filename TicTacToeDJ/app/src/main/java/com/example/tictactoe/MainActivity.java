@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView name_o_label;
     private TextView namex_score;
     private TextView nameo_score;
+    private MenuItem game_mode;
     private int score_x;
     private int score_o;
 
@@ -83,9 +84,10 @@ public class MainActivity extends AppCompatActivity {
 
         name_x = savedValues.getString("name_x", "X");
         name_o = savedValues.getString("name_o", "O");
-
+        
         name_x_label.setText("Score " + name_x + ": ");
         name_o_label.setText("Score " + name_o + ": ");
+
     }
 
     @Override
@@ -102,6 +104,20 @@ public class MainActivity extends AppCompatActivity {
             menu.findItem(R.id.menu_night_mode).setIcon(R.drawable.ic_night_mode);
             menu.findItem(R.id.menu_new_game).setIcon(R.drawable.ic_new_game_light_mode);
             menu.findItem(R.id.menu_night_mode).setTitle(R.string.night_mode);
+        }
+        game_mode = menu.findItem(R.id.menu_single_mode);
+        return true;
+    }
+
+    // in the activity
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem game_mode = menu.findItem(R.id.menu_single_mode);
+
+        if (single_mode) {
+            game_mode.setTitle("Multiplayer");
+        } else {
+            game_mode.setTitle("Single Player");
         }
         return true;
     }
@@ -130,8 +146,10 @@ public class MainActivity extends AppCompatActivity {
                 gameReset();
                 if (single_mode) {
                     single_mode = false;
+                    game_mode.setTitle("Single Player");
                 } else {
                     single_mode = true;
+                    game_mode.setTitle("Multiplayer");
                 }
                 return true;
             case R.id.menu_settings:
@@ -161,13 +179,15 @@ public class MainActivity extends AppCompatActivity {
         btn_8.setText(savedValues.getString("btn_8", ""));
 
         // Game Status
-        status.setText(savedValues.getString("status", ""));
+        status.setText(savedValues.getString("status", "X's Turn - Tap to play"));
         gameActive = savedValues.getBoolean("gameActive", true);
         String gameStatus = savedValues.getString("gameState", "");
         for (int i = 0; i < gameStatus.length(); i++) {
             gameState[i] = gameStatus.charAt(i) - '0';
         }
         counter = savedValues.getInt("count", 0);
+        single_mode = savedValues.getBoolean("single_mode", false);
+        String mode = (single_mode == false) ? "Single Player" : "Multiplayer";
 
         // Player
         activePlayer = savedValues.getInt("activePlayer", 0);
@@ -212,6 +232,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putInt("score_x", score_x);
         editor.putInt("score_o", score_o);
 
+        editor.putBoolean("single_mode", single_mode);
         editor.commit();
         super.onPause();
     }
