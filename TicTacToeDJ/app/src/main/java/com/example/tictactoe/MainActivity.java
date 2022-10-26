@@ -147,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
         btn_8.setText(savedValues.getString("btn_8", ""));
 
         // Game Status
-        status.setText(savedValues.getString("status", ""));
         gameActive = savedValues.getBoolean("gameActive", true);
         String gameStatus = savedValues.getString("gameState", "");
         for (int i = 0; i < gameStatus.length(); i++) {
@@ -164,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
 
         namex_score.setText(String.valueOf(savedValues.getInt("score_x", 0)));
         nameo_score.setText(String.valueOf(savedValues.getInt("score_o", 0)));
+        status.setText(savedValues.getString("status", name_x + " 's Turn - Tap to play"));
     }
 
     @Override
@@ -349,5 +349,30 @@ public class MainActivity extends AppCompatActivity {
 
         namex_score.setText(String.valueOf(savedValues.getInt("score_x", 0)));
         nameo_score.setText(String.valueOf(savedValues.getInt("score_o", 0)));
+    }
+
+    public Button selectButton(String id) {
+        switch (id) {
+            case "btn_0":
+                return btn_0;
+            case "btn_1":
+                return btn_1;
+            case "btn_2":
+                return btn_2;
+            case "btn_3":
+                return btn_3;
+            case "btn_4":
+                return btn_4;
+            case "btn_5":
+                return btn_5;
+            case "btn_6":
+                return btn_6;
+            case "btn_7":
+                return btn_7;
+            case "btn_8":
+                return btn_8;
+        }
+
+        return null;
     }
 }
