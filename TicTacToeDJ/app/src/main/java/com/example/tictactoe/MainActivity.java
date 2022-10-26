@@ -13,10 +13,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 public class MainActivity extends AppCompatActivity {
     public static final int TEXT_REQUEST = 1;
     private boolean single_mode = false;
@@ -42,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
     private MenuItem game_mode;
     private int score_x;
     private int score_o;
-    private char player = '0';
-    private char opponent = '1';
+    private char player = '\u0000';
+    private char opponent = '\u0001';
 
     // Player representation
     // 0 - X
@@ -350,7 +346,7 @@ public class MainActivity extends AppCompatActivity {
                 status.setText("Match Draw");
             }
 
-            if (single_mode) {
+            if (single_mode && gameActive == true) {
                 botMove();
             }
         }
@@ -358,18 +354,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void botMove() {
-        List<Integer> tapped = new ArrayList<>();
-        for (int i = 0; i < gameState.length; i++) {
-            if (gameState[i] != 2) {
-                tapped.add(i);
+//        List<Integer> tapped = new ArrayList<>();
+//        for (int i = 0; i < gameState.length; i++) {
+//            if (gameState[i] != 2) {
+//                tapped.add(i);
+//            }
+//        }
+//        Random rn = new Random();
+//        int random = tapped.get(0);
+//        while (tapped.contains(random)) {
+//            random = rn.nextInt(9);
+//        }
+        int count = 0;
+        char[][] board = new char[3][3];
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                board[i][j] = (char) gameState[count];
+                count++;
             }
         }
-        Random rn = new Random();
-        int random = tapped.get(0);
-        while (tapped.contains(random)) {
-            random = rn.nextInt(9);
-        }
-        String btn_id = "btn_" + random;
+        int nextMove = findBestMove(board);
+        String btn_id = "btn_" + nextMove;
         Button bot_button = selectButton(btn_id);
 
         counter++;
@@ -381,7 +386,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // mark this position
-        gameState[random] = 1;
+        gameState[nextMove] = 1;
 
         // set the image of o
         bot_button.setText("O");
@@ -502,9 +507,9 @@ public class MainActivity extends AppCompatActivity {
         for (int row = 0; row < 3; row++) {
             if (b[row][0] == b[row][1] &&
                     b[row][1] == b[row][2]) {
-                if (b[row][0] == player) {
+                if (b[row][0] == opponent) {
                     return +10;
-                } else if (b[row][0] == opponent) {
+                } else if (b[row][0] == player) {
                     return -10;
                 }
             }
@@ -514,9 +519,9 @@ public class MainActivity extends AppCompatActivity {
         for (int col = 0; col < 3; col++) {
             if (b[0][col] == b[1][col] &&
                     b[1][col] == b[2][col]) {
-                if (b[0][col] == player) {
+                if (b[0][col] == opponent) {
                     return +10;
-                } else if (b[0][col] == opponent) {
+                } else if (b[0][col] == player) {
                     return -10;
                 }
             }
@@ -524,17 +529,17 @@ public class MainActivity extends AppCompatActivity {
 
         // Checking for Diagonals for X or O victory.
         if (b[0][0] == b[1][1] && b[1][1] == b[2][2]) {
-            if (b[0][0] == player) {
+            if (b[0][0] == opponent) {
                 return +10;
-            } else if (b[0][0] == opponent) {
+            } else if (b[0][0] == player) {
                 return -10;
             }
         }
 
         if (b[0][2] == b[1][1] && b[1][1] == b[2][0]) {
-            if (b[0][2] == player) {
+            if (b[0][2] == opponent) {
                 return +10;
-            } else if (b[0][2] == opponent) {
+            } else if (b[0][2] == player) {
                 return -10;
             }
         }
@@ -576,9 +581,9 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     // Check if cell is empty
-                    if (board[i][j] == '2') {
+                    if (board[i][j] == '\u0002') {
                         // Make the move
-                        board[i][j] = player;
+                        board[i][j] = opponent;
 
                         // Call minimax recursively and choose
                         // the maximum value
@@ -586,7 +591,7 @@ public class MainActivity extends AppCompatActivity {
                                 depth + 1, !isMax));
 
                         // Undo the move
-                        board[i][j] = '2';
+                        board[i][j] = '\u0002';
                     }
                 }
             }
@@ -601,9 +606,9 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     // Check if cell is empty
-                    if (board[i][j] == '2') {
+                    if (board[i][j] == '\u0002') {
                         // Make the move
-                        board[i][j] = opponent;
+                        board[i][j] = player;
 
                         // Call minimax recursively and choose
                         // the minimum value
@@ -611,7 +616,7 @@ public class MainActivity extends AppCompatActivity {
                                 depth + 1, !isMax));
 
                         // Undo the move
-                        board[i][j] = '2';
+                        board[i][j] = '\u0002';
                     }
                 }
             }
@@ -620,42 +625,80 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // This will return the best possible
-    // move for the player
-//    private int findBestMove(char board[][]) {
-//        int bestVal = -1000;
-//        int bestMove;
-//        // bestMove.row = -1;
-//        bestMove.col = -1;
-//
-//        // Traverse all cells, evaluate minimax function
-//        // for all empty cells. And return the cell
-//        // with optimal value.
-//        for (int i = 0; i < 3; i++) {
-//            for (int j = 0; j < 3; j++) {
-//                // Check if cell is empty
-//                if (board[i][j] == '_') {
-//                    // Make the move
-//                    board[i][j] = player;
-//
-//                    // compute evaluation function for this
-//                    // move.
-//                    int moveVal = minimax(board, 0, false);
-//
-//                    // Undo the move
-//                    board[i][j] = '_';
-//
-//                    // If the value of the current move is
-//                    // more than the best value, then update
-//                    // best/
-//                    if (moveVal > bestVal) {
-//                        bestMove.row = i;
-//                        bestMove.col = j;
-//                        bestVal = moveVal;
-//                    }
-//                }
-//            }
-//        }
-//
-//        return bestMove;
-//    }
+    // move for the opponent
+    private int findBestMove(char board[][]) {
+        int bestVal = -1000;
+        int row = -1;
+        int col = -1;
+
+        // Traverse all cells, evaluate minimax function
+        // for all empty cells. And return the cell
+        // with optimal value.
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                // Check if cell is empty
+                if (board[i][j] == '\u0002') {
+                    // Make the move
+                    board[i][j] = opponent;
+
+                    // compute evaluation function for this
+                    // move.
+                    int moveVal = minimax(board, 0, false);
+
+                    // Undo the move
+                    board[i][j] = '\u0002';
+
+                    // If the value of the current move is
+                    // more than the best value, then update
+                    // best/
+                    if (moveVal > bestVal) {
+                        row = i;
+                        col = j;
+                        bestVal = moveVal;
+                    }
+                }
+            }
+        }
+        int ans = fetchIndexOffBoard(row, col);
+
+        return ans;
+    }
+
+    private int fetchIndexOffBoard(int i, int j) {
+        switch (i) {
+            case 0:
+                if (j == 0) {
+                    return 0;
+                } else if (j == 1) {
+                    return 1;
+                } else if (j == 2) {
+                    return 2;
+                }
+                break;
+
+            case 1:
+                if (j == 0) {
+                    return 3;
+                } else if (j == 1) {
+                    return 4;
+                } else if (j == 2) {
+                    return 5;
+                }
+                break;
+
+            case 2:
+                if (j == 0) {
+                    return 6;
+                } else if (j == 1) {
+                    return 7;
+                } else if (j == 2) {
+                    return 8;
+                }
+                break;
+        }
+
+        return 0;
+    }
+
+
 }
