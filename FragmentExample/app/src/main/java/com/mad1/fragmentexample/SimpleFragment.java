@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link SimpleFrament#newInstance} factory method to
+ * Use the {@link SimpleFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SimpleFrament extends Fragment {
+public class SimpleFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class SimpleFrament extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public SimpleFrament() {
+    public SimpleFragment() {
         // Required empty public constructor
     }
 
@@ -37,8 +37,8 @@ public class SimpleFrament extends Fragment {
      * @return A new instance of fragment SimpleFrament.
      */
     // TODO: Rename and change types and number of parameters
-    public static SimpleFrament newInstance(String param1, String param2) {
-        SimpleFrament fragment = new SimpleFrament();
+    public static SimpleFragment newInstance(String param1, String param2) {
+        SimpleFragment fragment = new SimpleFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,10 @@ public class SimpleFrament extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_simple_frament, container, false);
+        return inflater.inflate(R.layout.fragment_simple, container, false);
+    }
+
+    public static SimpleFragment createNewSimpleFragment(){
+        return new SimpleFragment();
     }
 }
