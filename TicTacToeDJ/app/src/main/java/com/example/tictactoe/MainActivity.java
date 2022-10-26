@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     public static final int TEXT_REQUEST = 1;
@@ -253,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
 
     // this function will be called every time a
     // players tap in an empty box of the grid
-    public void playerTap(View view) {
+    public void playerTap(View view) throws InterruptedException {
 
         curButton = (Button) view;
         int tappedButton = Integer.parseInt(curButton.getTag().toString());
@@ -340,12 +341,13 @@ public class MainActivity extends AppCompatActivity {
                 tapped.add(i);
             }
         }
-        int random = 0;
-        do {
-            random = (int) Math.random() * gameState.length;
-        } while (!tapped.contains(random));
+        Random rn = new Random();
+        int random = tapped.get(0);
+        while (tapped.contains(random)) {
+            random = rn.nextInt(9);
+        }
         String btn_id = "btn_" + random;
-        Button bot_button = findViewById(R.id.)
+        Button bot_button = selectButton(btn_id);
 
         counter++;
 
@@ -359,7 +361,7 @@ public class MainActivity extends AppCompatActivity {
         gameState[random] = 1;
 
         // set the image of o
-        curButton.setText("O");
+        bot_button.setText("O");
         activePlayer = 0;
 
         // change the status
