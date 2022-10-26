@@ -196,6 +196,7 @@ public class MainActivity extends AppCompatActivity {
 
         namex_score.setText(String.valueOf(savedValues.getInt("score_x", 0)));
         nameo_score.setText(String.valueOf(savedValues.getInt("score_o", 0)));
+        status.setText(savedValues.getString("status", name_x + " 's Turn - Tap to play"));
     }
 
     @Override
@@ -487,7 +488,7 @@ public class MainActivity extends AppCompatActivity {
 
         return null;
     }
-
+    
     // This function returns true if there are moves
     // remaining on the board. It returns false if
     // there are no moves left to play.
@@ -699,6 +700,4 @@ public class MainActivity extends AppCompatActivity {
 
         return 0;
     }
-
-
 }
