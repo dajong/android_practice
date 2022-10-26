@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 public class MainActivity extends AppCompatActivity {
     public static final int TEXT_REQUEST = 1;
+    private boolean single_mode = false;
     boolean gameActive = true;
     private TextView status;
     private Button curButton;
@@ -119,6 +120,15 @@ public class MainActivity extends AppCompatActivity {
                 }
                 // Recreate the activity for the theme change to take effect.
                 recreate();
+                return true;
+
+            case R.id.menu_single_mode:
+                gameReset();
+                if (single_mode) {
+                    single_mode = false;
+                } else {
+                    single_mode = true;
+                }
                 return true;
             case R.id.menu_settings:
                 Intent intent = new Intent(MainActivity.this,
@@ -243,14 +253,14 @@ public class MainActivity extends AppCompatActivity {
     public void playerTap(View view) {
 
         curButton = (Button) view;
-        int tappedImage = Integer.parseInt(curButton.getTag().toString());
+        int tappedButton = Integer.parseInt(curButton.getTag().toString());
         // game reset function will be called
         // if someone wins or the boxes are full
         if (!gameActive) {
             status.setText("Start a new game!");
         } else {
             // if the tapped image is empty
-            if (gameState[tappedImage] == 2) {
+            if (gameState[tappedButton] == 2) {
                 // increase the counter
                 // after every tap
                 counter++;
@@ -262,7 +272,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 // mark this position
-                gameState[tappedImage] = activePlayer;
+                gameState[tappedButton] = activePlayer;
 
                 // change the active player
                 // from 0 to 1 or 1 to 0

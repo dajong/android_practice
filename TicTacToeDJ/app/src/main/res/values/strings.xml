@@ -15,4 +15,5 @@
     <string name="btn_reset">Reset</string>
 
     <string name="initial_value">0</string>
+    <string name="single_double_mode">Single/Double Mode</string>
 </resources>
