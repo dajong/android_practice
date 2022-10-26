@@ -13,6 +13,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
     public static final int TEXT_REQUEST = 1;
     private boolean single_mode = false;
@@ -322,8 +325,77 @@ public class MainActivity extends AppCompatActivity {
             if (counter == 9 && flag == 0) {
                 status.setText("Match Draw");
             }
+
+            if (single_mode) {
+                botMove();
+            }
         }
 
+    }
+
+    public void botMove() {
+        List<Integer> tapped = new ArrayList<>();
+        for (int i = 0; i < gameState.length; i++) {
+            if (gameState[i] != 2) {
+                tapped.add(i);
+            }
+        }
+        int random = 0;
+        do {
+            random = (int) Math.random() * gameState.length;
+        } while (!tapped.contains(random));
+        String btn_id = "btn_" + random;
+        Button bot_button = findViewById(R.id.)
+
+        counter++;
+
+        // check if its the last box
+        if (counter == 9) {
+            // reset the game
+            gameActive = false;
+        }
+
+        // mark this position
+        gameState[random] = 1;
+
+        // set the image of o
+        curButton.setText("O");
+        activePlayer = 0;
+
+        // change the status
+        status.setText(name_x + " 's Turn - Tap to play");
+
+        int flag = 0;
+        // Check if any player has won
+        for (int[] winPosition : winPositions) {
+            if (gameState[winPosition[0]] == gameState[winPosition[1]] &&
+                    gameState[winPosition[1]] == gameState[winPosition[2]] &&
+                    gameState[winPosition[0]] != 2) {
+                flag = 1;
+
+                // Somebody has won! - Find out who!
+                String winnerStr;
+
+                // game reset function be called
+                gameActive = false;
+                if (gameState[winPosition[0]] == 0) {
+                    winnerStr = name_x + " has won";
+                    score_x++;
+                    namex_score.setText(String.valueOf(score_x));
+                } else {
+                    winnerStr = name_o + " has won";
+                    score_o++;
+                    nameo_score.setText(String.valueOf(score_o));
+                }
+                // Update the status bar for winner announcement
+                status.setText(winnerStr);
+
+            }
+        }
+        // set the status if the match draw
+        if (counter == 9 && flag == 0) {
+            status.setText("Match Draw");
+        }
     }
 
     // reset the game
