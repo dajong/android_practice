@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_add.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-ldpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_save.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-ldpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_add.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_cancel.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_search.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_delete.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_task_list.xml.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\layout\\activity_task_list.xml"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_add.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_save.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_cancel.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-ldpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_add.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_check_on_holo_light.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_delete.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_check_on_holo_light.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_check.xml.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable\\btn_check.xml"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_cancel.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_search.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_check_off_holo_light.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_delete.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-ldpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_delete.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_check_off_holo_light.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_save.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_check_on_holo_light.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_cancel.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-hdpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_check_off_holo_light.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_save.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_search.png.flat",
+        "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
+    }
+]
