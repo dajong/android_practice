@@ -14,12 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="334ab68a-2370-4ce5-8db1-ab9f20441ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/android_practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TipCalculatorDJ/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/twoactivities/activity_second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TipCalculatorDJ/app/src/main/java/com/mad1/tipcalculatordj/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculatorDJ/app/src/main/java/com/mad1/tipcalculatordj/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TipCalculatorDJ/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculatorDJ/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/sonarlint/issuestore/5/5/558c76e1b3c5934c31953442b95c6603eece231b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/sonarlint/issuestore/8/2/82e8ec419ef4eaebe0e5aad131cf15b86a996efe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/sonarlint/issuestore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/java/com/example/tictactoe/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/app/src/main/java/com/example/tictactoe/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/java/com/example/tictactoe/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/app/src/main/java/com/example/tictactoe/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61d9a7b4986b7baf100096a1925e5089038bad01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad8e3162ca54b66091f4ed8c5c17631d46b5350f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.last.time.stamp" value="1664010891170" />
   </component>
   <component name="RecentsManager">

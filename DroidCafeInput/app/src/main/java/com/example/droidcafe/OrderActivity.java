@@ -49,8 +49,17 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         displayToast(spinnerLabel);
     }
 
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+    }
+
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message,
                 Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        super.onPointerCaptureChanged(hasCapture);
     }
 }
