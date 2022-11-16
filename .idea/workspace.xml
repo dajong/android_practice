@@ -1,24 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d215058f-8ecb-40c9-9a1c-6995f843d1f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/android_practice.iml" beforeDir="false" />
+    <list default="true" id="95415104-e1e9-4b67-8d0a-557f3ce71af1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SongDetail/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mad1/tuscanteen/Contents/FoodSectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mad1/tuscanteen/FoodListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mad1/tuscanteen/FoodSectionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mad1/tuscanteen/FoodSectionRecyclerViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_food_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/food_section_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/food_section_list_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemperatureConverterDJ/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureConverterDJ/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TipCalculatorDJ/.idea/sonarlint/issuestore/b/9/b9a6b786fc5a7affa47d5348270b6e5bc4c73854" beforeDir="false" afterPath="$PROJECT_DIR$/TipCalculatorDJ/.idea/sonarlint/issuestore/b/9/b9a6b786fc5a7affa47d5348270b6e5bc4c73854" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SongDetail/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SongDetail/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/2/5/25d61a7933520a4eec9b7cbb9dc84e12023eb4c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/6/d/6d79f8b32df1ff08e18dafda4c2c6b7337527e6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/8/2/8259e922f830d07969301ffaa19038d60d98f0b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/f/d/fd8d34b142d02ec743a8efefefd2c097961666e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/androidTest/java/com/example/tuscanteen/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/java/com/example/tuscanteen/FirstFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/java/com/example/tuscanteen/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/java/com/example/tuscanteen/SecondFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values-land/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values-w1240dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values-w600dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/app/src/test/java/com/example/tuscanteen/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/firebase-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/firestore-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUSCanteen/ui-debug.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/dajong/.android/avd/Pixel_5_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\K00244549\.android\avd\Pixel_5_API_30_2.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -30,7 +110,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2F7WqsYKa3gEpQZJAd1qtxO6r9I" />
+  <component name="ProjectId" id="2HdAoEPGuj6ESwlor1c6U8qKNhA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,12 +120,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1665081022512" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1020564153">
+      <recent name="com.mad1.tuscanteen" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="ImplicitIntents.app.main" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="TUS_Canteen.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -107,12 +190,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d215058f-8ecb-40c9-9a1c-6995f843d1f7" name="Changes" comment="" />
-      <created>1663843797590</created>
+      <changelist id="95415104-e1e9-4b67-8d0a-557f3ce71af1" name="Changes" comment="" />
+      <created>1668604759572</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663843797590</updated>
+      <updated>1668604759572</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
