@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PlayerApp</string>
+
+    <string name="btn_start_game">Start Game</string>
+    <string name="btn_view_scoreboard">View Scoreboard</string>
+    <string name="btn_select_player_1">Select Player 1</string>
+    <string name="btn_select_player_2">Select Player 2</string>
+    <string name="btn_add_player">Add Player</string>
+
+    <string name="player_1_label">Player 1: </string>
+    <string name="player_2_label">Player 2: </string>
+    <string name="tie_game">It\'s a tie!</string>
+
+    <string name="enter_name_hint">Enter Name Here...</string>
+</resources>
