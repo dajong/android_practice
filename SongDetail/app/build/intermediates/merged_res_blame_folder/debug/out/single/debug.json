@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/drawable_beatles_anthology_box.jpg.flat",
+        "source": "com.example.android.songdetail.app-main-15:/drawable/beatles_anthology_box.jpg"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/layout_song_detail.xml.flat",
+        "source": "com.example.android.songdetail.app-main-15:/layout/song_detail.xml"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/layout_activity_song_list.xml.flat",
+        "source": "com.example.android.songdetail.app-main-15:/layout/activity_song_list.xml"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/layout-w900dp_song_list.xml.flat",
+        "source": "com.example.android.songdetail.app-main-15:/layout-w900dp/song_list.xml"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/layout_song_list.xml.flat",
+        "source": "com.example.android.songdetail.app-main-15:/layout/song_list.xml"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/layout_activity_song_detail.xml.flat",
+        "source": "com.example.android.songdetail.app-main-15:/layout/activity_song_detail.xml"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/layout_song_list_content.xml.flat",
+        "source": "com.example.android.songdetail.app-main-15:/layout/song_list_content.xml"
+    },
+    {
+        "merged": "com.example.android.songdetail.app-merged_res-13:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.android.songdetail.app-main-15:/mipmap-hdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="627ea624-8e6f-4932-b0ac-36021221a2d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-anydpi/ic_action_favorites.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-anydpi/ic_action_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-hdpi/ic_action_favorites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-hdpi/ic_action_status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-mdpi/ic_action_favorites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-mdpi/ic_action_status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-xhdpi/ic_action_favorites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-xhdpi/ic_action_status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-xxhdpi/ic_action_favorites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/drawable-xxhdpi/ic_action_status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-anydpi/ic_new_game.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-anydpi/ic_night_mode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-hdpi/ic_new_game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-hdpi/ic_night_mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-mdpi/ic_new_game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-mdpi/ic_night_mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-xhdpi/ic_new_game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-xhdpi/ic_night_mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-xxhdpi/ic_new_game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/drawable-xxhdpi/ic_night_mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeDJ/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeInput/.idea/sonarlint/issuestore/6/a/6a3f059087262250795aaf6f557337e649b3965d" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeInput/.idea/sonarlint/issuestore/6/a/6a3f059087262250795aaf6f557337e649b3965d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeInput/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeInput/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/java/com/example/droidcafe/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/java/com/example/droidcafe/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/java/com/example/droidcafe/OrderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/java/com/example/droidcafe/OrderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DroidCafeInput/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InvoidTotalDJ/.idea/sonarlint/issuestore/0/a/0a9c44bcd891e3190f464b95a3453c951d8cc545" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InvoidTotalDJ/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../InvoidTotalDJ/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemperatureConverterDJ/.idea/sonarlint/issuestore/8/7/873d30aa0043080fd9738dc162e62a678d752bfc" beforeDir="false" afterPath="$PROJECT_DIR$/../TemperatureConverterDJ/.idea/sonarlint/issuestore/8/7/873d30aa0043080fd9738dc162e62a678d752bfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemperatureConverterDJ/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../TemperatureConverterDJ/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e05ba2698109a6eacbf9e1889489004b087f26f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82e8ec419ef4eaebe0e5aad131cf15b86a996efe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/tictactoe/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoe/FirstFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoe/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-land/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w1240dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w600dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/tictactoe/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/androidTest/java/com/example/tictactoe/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/ic_launcher_new-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/drawable/ic_launcher_new_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_new_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-hdpi/ic_launcher_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-hdpi/ic_launcher_new_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-mdpi/ic_launcher_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-mdpi/ic_launcher_new_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-xhdpi/ic_launcher_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-xhdpi/ic_launcher_new_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-xxhdpi/ic_launcher_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-xxhdpi/ic_launcher_new_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_new_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/debug/res/values/ic_launcher_new_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/java/com/example/tictactoe/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/java/com/example/tictactoe/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/layout/activity_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/menu/main_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/app/src/test/java/com/example/tictactoe/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculatorDJ/.idea/sonarlint/issuestore/b/9/b9a6b786fc5a7affa47d5348270b6e5bc4c73854" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculatorDJ/.idea/sonarlint/issuestore/b/9/b9a6b786fc5a7affa47d5348270b6e5bc4c73854" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoActivities/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoActivities/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoActivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoActivities/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/dajong/.android/avd/Pixel_5_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G5ZLsHW7DXdsHo87Jc7bKTevfC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1665680371082" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="TicTacToe.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="627ea624-8e6f-4932-b0ac-36021221a2d7" name="Changes" comment="" />
+      <created>1665680353806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665680353806</updated>
+    </task>
+    <servers />
+  </component>
+</project>
