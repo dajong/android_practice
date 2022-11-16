@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "46",
+                        "endOffsets": "59"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                },
+                {
+                    "source": "C:\\murach18\\android\\book_apps\\ch13_TaskList\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "75",
+                        "endColumns": "62",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endColumns": "62",
+                        "endOffsets": "160"
+                    }
+                }
+            ]
+        }
+    ]
+}
